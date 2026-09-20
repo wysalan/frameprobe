@@ -231,7 +231,10 @@ def test_shots_and_launch_routes(tmp_path: Path) -> None:
         assert client.get("/api/sessions/sid/shots/000001.png").content == b"PNG"
         assert client.get("/api/sessions/sid/shots/nope.png").status_code == 404
         traversal = client.get("/api/sessions/sid/shots/..%2Fsummary.json")
-        assert "application/json" not in traversal.headers.get("content-type", "")
+        # 有前端 build 時會落到 SPA 的 index.html，沒有（例如 CI）則是 FastAPI 的 JSON 404；
+        # 兩者都可以，只要不是把 summary.json 吐出來
+        is_json = "application/json" in traversal.headers.get("content-type", "")
+        assert traversal.status_code == 404 or not is_json
         assert b"session_id" not in traversal.content
         res = client.post(
             "/api/devices/X/launch", json={"package": "com.example.game", "repeat": 2}
