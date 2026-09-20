@@ -1,0 +1,45 @@
+#stat
+cpu  100300 2000 50100 800500 5000 1000 2000 0 0 0
+cpu0 30100 500 15050 200050 1000 300 500 0 0 0
+cpu1 30100 500 15000 200100 1000 300 500 0 0 0
+cpu2 20050 500 10025 200125 1500 200 500 0 0 0
+cpu3 20050 500 10025 200125 1500 200 500 0 0 0
+intr 123456 0 0
+ctxt 987654
+#pid 4321
+#pstat
+4321 (com.example.game) S 1 4321 0 0 -1 1077936448 50000 0 0 0 3120 1040 0 0 20 0 40 0 12345 1234567890 60000 18446744073709551615 1 1 0 0 0 0 0 0 0 0 0 0 17 3 0 0 0 0 0 0 0 0 0 0 0 0 0
+#freq
+cpu0 1800000 2000000
+cpu1 1800000 2000000
+cpu2 3000000 3000000
+cpu3 3000000 3000000
+#smaps
+/proc/4321/smaps_rollup: Permission denied
+#statm
+62500 61000 15000 1 0 40000 0
+#pagesize 4096
+#meminfo
+MemTotal:        7800000 kB
+MemFree:          390000 kB
+MemAvailable:    2450000 kB
+#gpubusy
+      0       0
+#gpuclk
+/sys/class/kgsl/kgsl-3d0/clock_mhz cat: /sys/class/kgsl/kgsl-3d0/clock_mhz: Permission denied
+/sys/class/kgsl/kgsl-3d0/gpuclk cat: /sys/class/kgsl/kgsl-3d0/gpuclk: Permission denied
+/sys/class/kgsl/kgsl-3d0/devfreq/cur_freq cat: /sys/class/kgsl/kgsl-3d0/devfreq/cur_freq: No such file or directory
+#gpumem
+Proc 4321 total: 333565952
+#ctxt
+voluntary_ctxt_switches:	1300
+nonvoluntary_ctxt_switches:	260
+voluntary_ctxt_switches:	600
+nonvoluntary_ctxt_switches:	60
+#net
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo: 9999999   10000    0    0    0     0          0         0  9999999   10000    0    0    0     0       0          0
+ wlan0: 1512000  5000    0    0    0     0          0         0  251200    3000    0    0    0     0       0          0
+#gputemp
+cat: /sys/class/kgsl/kgsl-3d0/temp: No such file or directory

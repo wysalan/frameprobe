@@ -1,0 +1,40 @@
+Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  Dock powered: false
+  Max charging current: 0
+ Time when the latest updated value of the Max charging current was sent via battery changed broadcast: 0
+  Max charging voltage: 0
+  Charge counter: 1633905
+  status: 2
+  health: 2
+  present: true
+  level: 44
+  scale: 100
+  voltage: 3908
+ Time when the latest updated value of the voltage was sent via battery changed broadcast: 0
+ The last voltage value sent via the battery changed broadcast: 3932
+  temperature: 422
+  technology: Li-ion
+  Charging state: 0
+  Charging policy: 0
+  Capacity level: -1
+  batteryMiscEvent: 65536
+  batteryCurrentEvent: 32
+  mSecPlugTypeSummary: 2
+  LED Charging: true
+  LED Low Battery: true
+  current now: 559
+  charge counter: 1633905
+  Adaptive Fast Charging Settings: true
+  Super Fast Charging Settings: false
+FEATURE_WIRELESS_FAST_CHARGER_CONTROL: true
+LLB CAL: 20230907
+
+[EventLogBuffer]
+09-13 15:25:25.763  android.intent.action.ACTION_POWER_DISCONNECTED
+09-13 15:25:33.990  android.intent.action.ACTION_POWER_CONNECTED
+
+[BattActionChangedLogBuffer]
+09-13 15:27:35.199  Sending ACTION_BATTERY_CHANGED: level:43, status:2, health:2, remain:3441, ac:false, usb:true, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:1, voltage:3841, temperature:392, online:19, charging_status:0, cycle_count:0, current_avg:-257, ps:false, hvc:true, current_event:0x0, mcc:0, mcv:0, cc:1622790, present:true, scale:100, technology:Li-ion, protection:0

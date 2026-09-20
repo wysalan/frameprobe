@@ -1,0 +1,11 @@
+Stable Game Driver: unsupported
+Pre-release Game Driver: unsupported
+
+Memory snapshot for GPU 0:
+Global total: 2100072448
+Proc 895 total: 17305600
+Proc 1007 total: 370515968
+Proc 1178 total: 70950912
+Proc 21917 total: 333565952
+Proc 21939 total: 17870848
+Proc 26049 total: 15532032

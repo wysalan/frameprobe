@@ -1,0 +1,5 @@
+thermal_zone0 cpu0-silver-usr 58400
+thermal_zone1 gpuss-0-usr 57300
+thermal_zone2 battery 368
+thermal_zone3 skin-therm 44
+thermal_zone9 unknown 0

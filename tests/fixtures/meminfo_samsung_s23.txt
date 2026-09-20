@@ -1,0 +1,64 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 41809804 Realtime: 166822342
+
+** MEMINFO in pid 18345 [com.example.game] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap   468807   449876    18916  1253463   469656  1919292  1831450    87841
+  Dalvik Heap     6655     6620       16     1555     7148    33657     9081    24576
+ Dalvik Other     3880     3724       60      585     4156
+        Stack     2464     2400       64     3872     2472
+       Ashmem       26        4        0        0      152
+    Other dev       16        0       12        0      508
+     .so mmap    81678     1356    79140    17753    98584
+    .jar mmap      448        0       16        0    13788
+    .apk mmap     2625       32      644      664     6680
+    .dex mmap     3846       36     3784        0     4584
+    .oat mmap      186        0        0        0     7196
+    .art mmap     3367     2688      276     1085    13988
+   Other mmap   152219   146784     5392        0   152904
+   EGL mtrack    26992    26992        0        0    26992
+    GL mtrack   422132   422132        0        0   422132
+      Unknown   452130   415664    36460   322560   452648
+        TOTAL  3229008  1478308   144780  1601537  1683588  1952949  1840531   112417
+
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:     9584                          21136
+         Native Heap:   449876                         469656
+                Code:    85008                         130888
+               Stack:     2400                           2472
+            Graphics:   449124                         449124
+       Private Other:   627096
+              System:  1605920
+             Unknown:                                  610312
+
+           TOTAL PSS:  3229008            TOTAL RSS:  1683588       TOTAL SWAP PSS:  1601537
+
+ Objects
+               Views:        6         ViewRootImpl:        1
+         AppContexts:       18           Activities:        1
+              Assets:       44        AssetManagers:        0
+       Local Binders:       92        Proxy Binders:      123
+       Parcel memory:       70         Parcel count:      185
+    Death Recipients:        7             WebViews:        0
+
+ Native Allocations
+                         Count                       Total(kB)
+                        ------                         ------
+    Other (malloced):      398                             36
+ Other (nonmalloced):      229                            148
+
+ SQL
+         MEMORY_USED:      467
+  PAGECACHE_OVERFLOW:      134          MALLOC_SIZE:       46
+
+ DATABASES
+      pgsz     dbsz   Lookaside(b) cache hits cache misses cache size  Dbname
+PER CONNECTION STATS
+         4       36             56   248    25     5  /data/user/0/com.example.game/databases/example-db
+POOL STATS
+     cache hits  cache misses    cache size  Dbname
+            248            26             5  /data/user/0/com.example.game/databases/example-db

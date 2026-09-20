@@ -1,0 +1,44 @@
+#props
+ro.product.brand=google
+ro.product.manufacturer=Google
+ro.product.model=Pixel 11 Pro
+ro.product.marketname=
+ro.product.device=grizzly
+ro.build.version.release=17
+ro.build.version.sdk=37
+ro.build.version.security_patch=2026-09-01
+ro.build.display.id=CD1A.260905.001.B1
+ro.build.type=user
+ro.soc.manufacturer=Google
+ro.soc.model=Tensor G6
+ro.board.platform=malibu
+ro.hardware.egl=powervr
+ro.hardware.vulkan=powervr
+ro.product.cpu.abilist=arm64-v8a
+#cpu
+cpu0 2649000
+cpu1 2649000
+cpu2 3379000
+cpu3 3379000
+cpu4 3379000
+cpu5 3379000
+cpu6 4109000
+#mem
+MemTotal:       16030796 kB
+#disk
+/dev/block/dm-33 484835328 119561192 365143064  25% /data/user/0
+#screen
+Physical size: 1280x2856
+Physical density: 480
+#kernel
+6.12.69-android16-6-g5c5f2fea42dd-ab15835541-4k
+Enforcing
+uid=2000(shell) gid=2000(shell) groups=2000(shell) context=u:r:shell:s0
+#display
+  DisplayDeviceInfo{"內建畫面": uniqueId="local:4619827826572241664", 1280 x 2856, modeId 1, modeIdForSizeOverride -1, renderFrameRate 120.00001, hasArrSupport true, frameRateCategoryRate FrameRateCategoryRate {normal=60.0, high=90.0}, supportedRefreshRates [120.00001, 60.000004, 40.0, 30.000002, 24.000002, 20.0, 15.000001, 10.0, 5.0, 2.0000002, 1.0000001], defaultModeId 1}
+    mSupportedRefreshRates=[120.00001, 60.000004, 40.0, 30.000002, 24.000002, 20.0, 15.000001, 10.0, 5.0, 2.0000002, 1.0000001]
+    mActiveSfDisplayMode=DisplayMode{id=0, width=1280, height=2856, xDpi=492.606, yDpi=493.485, peakRefreshRate=120.00001, vsyncRate=120.00001, appVsyncOffsetNanos=6233332, presentationDeadlineNanos=11500000, supportedHdrTypes=[2, 4, 3], group=1}
+#gles
+#battery
+4960000
+2

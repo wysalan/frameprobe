@@ -1,0 +1,47 @@
+#props
+ro.product.brand=samsung
+ro.product.manufacturer=samsung
+ro.product.model=SM-S9110
+ro.product.marketname=
+ro.product.device=dm1q
+ro.build.version.release=16
+ro.build.version.sdk=36
+ro.build.version.security_patch=2026-07-05
+ro.build.display.id=BP4A.251205.006.S9110ZHS8FZG1
+ro.build.type=user
+ro.soc.manufacturer=QTI
+ro.soc.model=SM8550
+ro.board.platform=kalama
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
+ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+#cpu
+cpu0 2016000
+cpu1 2016000
+cpu2 2016000
+cpu3 2803200
+cpu4 2803200
+cpu5 2803200
+cpu6 2803200
+cpu7 3360000
+#mem
+MemTotal:        7242448 kB
+#disk
+/dev/block/dm-63 234987468 158757392  76099004  68% /data/user/0
+#screen
+Physical size: 1080x2340
+Physical density: 480
+#kernel
+5.15.189-android13-8-33413713-abS9110ZHS8FZG1
+Enforcing
+uid=2000(shell) gid=2000(shell) groups=2000(shell),3012(readtracefs) context=u:r:shell:s0
+#display
+  DisplayDeviceInfo{"內建畫面": uniqueId="local:4630947059332006275", 1080 x 2340, modeId 3, renderFrameRate 60.000004, hasArrSupport false, frameRateCategoryRate FrameRateCategoryRate {normal=60.0, high=90.0}, supportedRefreshRates [120.00001, 96.00001, 60.000004, 48.000004, 30.000002, 24.000002, 10.0], defaultModeId 1, userPreferredModeId -1, supportedModes [{id=1, parentModeId=-1, flags=, width=1080, height=2340, fps=120.00001, vsync=120.00001, alternativeRefreshRates=[10.0, 24.000002, 30.000002, 48.000004, 60.000004, 96.00001], supportedHdrTypes=[2, 3, 4]}], colorMode 0}
+    mSupportedRefreshRates=[120.00001, 96.00001, 60.000004, 48.000004, 30.000002, 24.000002, 10.0]
+    mActiveSfDisplayMode=DisplayMode{id=2, width=1080, height=2340, xDpi=428.625, yDpi=424.542, peakRefreshRate=60.000004, vsyncRate=60.000004, appVsyncOffsetNanos=16666666, presentationDeadlineNanos=17666666, supportedHdrTypes=[4, 2, 3], group=1080}
+#gles
+GLES: Qualcomm, Adreno (TM) 740, OpenGL ES 3.2 V@0676.77.1 (GIT@3df4c357f0, I515341007c, 1769513954) (Date:01/27/26)
+#battery
+cat: /sys/class/power_supply/battery/charge_full_design: Permission denied
+cat: /sys/class/power_supply/battery/cycle_count: Permission denied
+  mSavedBatteryAsoc: [91]

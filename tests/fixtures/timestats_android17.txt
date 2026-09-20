@@ -1,0 +1,44 @@
+SurfaceFlinger TimeStats:
+Legacy stats are as follows:
+statsStart = 1757740000
+statsEnd = 1757740060
+totalFrames = 3600
+missedFrames = 24
+clientCompositionFrames = 0
+displayOnTime = 60000 ms
+refreshRateSwitches = 2
+compositionStrategyChanges = 0
+averageFrameDuration = 8.211
+frameDuration histogram is as below:
+0ms=0 1ms=0 2ms=120 3ms=400 4ms=900 5ms=1200 6ms=700 7ms=200 8ms=80
+
+layerName = SurfaceView[com.example.game/com.unity3d.player.UnityPlayerActivity]@0(BLAST)#132833
+packageName =
+totalFrames = 1000
+droppedFrames = 12
+averageFPS = 57.421
+present2present histogram is as below:
+0ms=0 1ms=0 2ms=0 3ms=0 4ms=0 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0
+13ms=0 14ms=0 15ms=0 16ms=850 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0
+24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 33ms=100 34ms=0
+36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 50ms=35 54ms=0 58ms=0 62ms=0
+66ms=10 70ms=0 74ms=0 78ms=0 82ms=0 86ms=0 90ms=0 94ms=0 98ms=0 102ms=5 106ms=0
+150ms=0 200ms=0 250ms=0 300ms=0
+post2present histogram is as below:
+0ms=0 1ms=990 2ms=10
+
+layerName = com.example.game/com.example.game.SplashActivity#0
+packageName =
+totalFrames = 30
+droppedFrames = 0
+averageFPS = 59.900
+present2present histogram is as below:
+16ms=30
+
+layerName = NavigationBar0#0
+packageName =
+totalFrames = 5
+droppedFrames = 0
+averageFPS = 60.000
+present2present histogram is as below:
+16ms=5
