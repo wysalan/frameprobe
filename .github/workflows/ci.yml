@@ -4,10 +4,10 @@ on:
   pull_request:
 jobs:
   python:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v3
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.1.0
       - run: uv python install 3.12
       - run: uv sync --group dev
       - run: uv run ruff check frameprobe tests
@@ -15,11 +15,11 @@ jobs:
       - run: uv run mypy
       - run: uv run pytest -q --cov=frameprobe --cov-report=term
   web:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     defaults: { run: { working-directory: web } }
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 22, cache: npm, cache-dependency-path: web/package-lock.json }
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with: { node-version: 24, cache: npm, cache-dependency-path: web/package-lock.json }
       - run: npm ci
       - run: npm run generate
