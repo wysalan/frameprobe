@@ -12,4 +12,3 @@ web/node_modules/
 web/.nuxt/
 web/.output/
 .playwright-mcp/
-screenshots/

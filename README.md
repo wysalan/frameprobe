@@ -11,6 +11,8 @@ Android 遊戲幀率採集工具。Python CLI + FastAPI + Nuxt 儀表板。
 | `watch`（即時） | `dumpsys SurfaceFlinger --timestats` 累積值差分 | 每秒一筆 FPS / P90 / P99 / 掉幀率 + 溫度與節流狀態 |
 | `record`（離線） | Perfetto FrameTimeline + `trace_processor` | 最準、有逐幀 jank 歸因；錄製期間以 timestats 顯示即時資料，停止後以 trace 分析為準 |
 
+![錄製報告](screenshots/report-light.webp)
+
 ## 功能
 
 - **幀率**：FPS、P90、P99、1% Low、掉幀率、frame time 直方圖
